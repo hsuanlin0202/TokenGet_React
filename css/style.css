@@ -1,0 +1,90 @@
+@import url(hl_toolpack.css);
+.main_container {
+  max-width: 1024px;
+  font-size: 16px;
+}
+
+.input_require {
+  color: red;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.timer {
+  color: red;
+  margin: 0 10px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 1px solid #bbbbbb;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  min-width: 100px;
+  background: white;
+  outline: none;
+  margin: 0 20px;
+}
+
+.btn:hover {
+  background: #dddddd;
+}
+
+.btn:active {
+  border: 1px solid #000000;
+}
+
+.mainTitle {
+  background: #80d4f8;
+  height: 40px;
+  border: 0.5px solid #999999;
+}
+
+.main_table {
+  border: 1px solid #999999;
+  margin: 30px 0;
+}
+
+.table_td {
+  border: 0.5px solid #999999;
+  min-height: 60px;
+  padding: 10px;
+}
+
+.table_td ul {
+  margin-left: 30px;
+}
+
+.table_td li {
+  margin-left: 20px;
+}
+
+.lh30px {
+  line-height: 30px;
+}
+
+.white_nowrap {
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 992px) {
+  .main_table {
+    width: 70%;
+    min-width: 900px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main_table {
+    width: 90%;
+    min-width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
